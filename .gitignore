@@ -1,0 +1,28 @@
+# Dev Flow Plugin .gitignore
+
+# State files (user-specific, not committed)
+.dev-flow-state
+
+# Workflow files (generated per-project)
+TODO.md
+REQUIREMENTS.md
+PLAN.md
+COMMENTS.md
+PROBLEMS.md
+FIX.md
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Node (if adding any tooling)
+node_modules/
+npm-debug.log
+yarn-error.log
