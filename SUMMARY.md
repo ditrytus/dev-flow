@@ -13,10 +13,13 @@ dev-flow-plugin/
 ├── MIGRATION.md                     # Migration guide from old workflow
 ├── SUMMARY.md                       # This file
 ├── .gitignore                       # Git ignore rules
-├── skills/                          # User-facing commands
-│   ├── dev-flow.md                 # Main workflow orchestrator
-│   ├── dev-flow-continue.md        # Continue from checkpoint
-│   └── dev-flow-status.md          # Show workflow status
+├── skills/                          # User-facing commands (Skills)
+│   ├── dev-flow/
+│   │   └── SKILL.md                # Main workflow orchestrator
+│   ├── dev-flow-continue/
+│   │   └── SKILL.md                # Continue from checkpoint
+│   └── dev-flow-status/
+│       └── SKILL.md                # Show workflow status
 ├── subagents/                       # Specialized agents
 │   ├── requirements-refiner.md     # Clarifies requirements
 │   ├── planner.md                  # Creates implementation plans
@@ -357,8 +360,8 @@ gh pr create
 
 4. **Customize if needed**:
    - Edit agent markdown files to match your preferences
-   - Adjust review strictness in code-reviewer.md
-   - Adjust testing scope in tester.md
+   - Adjust review strictness in subagents/code-reviewer.md
+   - Adjust testing scope in subagents/tester.md
 
 5. **Gradually migrate**:
    - Both workflows can coexist
@@ -384,7 +387,7 @@ gh pr create
 - All agent behaviors defined in markdown
 - Easy to customize by editing markdown files
 - Can add new agents if needed
-- Can modify orchestration logic in dev-flow.md
+- Can modify orchestration logic in skills/dev-flow/SKILL.md
 
 ## Comparison Table
 

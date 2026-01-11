@@ -316,7 +316,7 @@ Edit [tester.md](subagents/tester.md) to adjust testing approach:
 
 ### Model Selection
 
-The orchestrator uses Sonnet for all agents by default. You can override per-agent in the skill files:
+The orchestrator uses Sonnet for all agents by default. You can override per-agent by editing the subagent markdown files and changing the `model` field in the frontmatter:
 
 ```typescript
 await launchAgent('implementor', {

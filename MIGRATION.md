@@ -349,7 +349,7 @@ It has more phases, but each phase is simpler and you're less involved:
 Edit the agent markdown files:
 - `subagents/code-reviewer.md` - Adjust review strictness
 - `subagents/tester.md` - Adjust testing scope
-- `skills/dev-flow.md` - Adjust orchestration logic
+- `skills/dev-flow/SKILL.md` - Adjust orchestration logic
 
 ### "Can I use both workflows?"
 
