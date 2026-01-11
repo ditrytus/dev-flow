@@ -1,3 +1,8 @@
+---
+name: dev-flow-status
+description: Show current development workflow status. Use when checking progress, understanding current phase, or seeing what's been completed.
+---
+
 # Dev Flow Status
 
 Show the current status of the development workflow.

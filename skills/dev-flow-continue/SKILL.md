@@ -1,3 +1,8 @@
+---
+name: dev-flow-continue
+description: Continue development workflow from last checkpoint. Use when resuming workflow after reviewing requirements, plan, or code review comments.
+---
+
 # Dev Flow Continue
 
 Continue the development workflow from the last checkpoint.

@@ -1,55 +1,6 @@
 {
   "name": "dev-flow",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Multi-agent development workflow with requirements refinement, planning, implementation, code review, and testing",
-  "author": "Your Name",
-  "skills": [
-    {
-      "name": "dev-flow",
-      "description": "Start the complete development workflow",
-      "path": "skills/dev-flow.md"
-    },
-    {
-      "name": "dev-flow-continue",
-      "description": "Continue workflow from last checkpoint",
-      "path": "skills/dev-flow-continue.md"
-    },
-    {
-      "name": "dev-flow-status",
-      "description": "Show current workflow status",
-      "path": "skills/dev-flow-status.md"
-    }
-  ],
-  "subagents": [
-    {
-      "name": "requirements-refiner",
-      "description": "Refines and clarifies requirements",
-      "path": "subagents/requirements-refiner.md"
-    },
-    {
-      "name": "planner",
-      "description": "Creates detailed implementation plans",
-      "path": "subagents/planner.md"
-    },
-    {
-      "name": "implementor",
-      "description": "Implements code changes according to plan",
-      "path": "subagents/implementor.md"
-    },
-    {
-      "name": "code-reviewer",
-      "description": "Reviews code quality and provides feedback",
-      "path": "subagents/code-reviewer.md"
-    },
-    {
-      "name": "tester",
-      "description": "Manually tests implementation against requirements",
-      "path": "subagents/tester.md"
-    },
-    {
-      "name": "debugger",
-      "description": "Investigates and diagnoses issues",
-      "path": "subagents/debugger.md"
-    }
-  ]
+  "author": "Jakub Gruszecki"
 }

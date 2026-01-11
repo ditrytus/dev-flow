@@ -1,3 +1,8 @@
+---
+name: dev-flow
+description: Main workflow orchestrator for complete development workflow. Use when starting a new development task. Orchestrates requirements, planning, implementation, code review, and testing phases.
+---
+
 # Dev Flow - Main Workflow Orchestrator
 
 This is the main entry point for the development workflow. It orchestrates the entire process from requirements to merge.
